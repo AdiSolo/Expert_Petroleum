@@ -99,6 +99,51 @@ nav{
 .bar3 {
     width: 16px;
 }
+
+.site-menu{
+    display: none;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    z-index: 50;
+}
+
+.show-menu {
+    display: block !important;
+}
+.menu-bar{
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 168px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 32px;
+}
+.open-menu {
+    cursor: pointer;
+}
+.hide-nav {
+    display: none !important;
+}
+
+.hide-scroll {
+    overflow: hidden;
+}
+
+.site-menu  .parrent-li > li  {
+    display: inline-block;
+    max-width: 208px;
+    margin-right: 1.5rem;
+}
+
+.site-menu  .parrent-li > li a{
+    color: #FE5000;
+}
+
+/*
+****************  Line CSS  ****************
+*/
 .line{
     position: absolute;
     height: 1px;
