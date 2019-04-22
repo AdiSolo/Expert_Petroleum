@@ -627,6 +627,7 @@ nav{
 
 .media {
     margin-bottom: 139px;
+    display: flex;
 }
 
 
