@@ -18,8 +18,8 @@
   margin-left: 0;
 }
 
-.col-md-12, .col-md-8, .col-md-6, .col-md-4,.col-md-3
- .col-lg-12, .col-lg-8, .col-lg-6, .col-lg-4, .col-md-3{
+.col-md-12, .col-md-8, .col-md-6, .col-md-4,.col-md-3, .col-md-2,
+ .col-lg-12, .col-lg-8, .col-lg-6, .col-lg-4, .col-lg-3, .col-lg-2{
   padding-right: 0;
   padding-left: 0;
 }
@@ -39,6 +39,7 @@ body{
 
 img{
     width: 100%;
+    height: auto;
     object-fit: cover;
 }
 
@@ -627,10 +628,58 @@ nav{
 
 .media {
     margin-bottom: 139px;
-    display: flex;
 }
 
 
 /*
-****************  Page STORIEEES CSS  ****************
+****************  Single Page CSS  ****************
 */
+
+.post-meta {
+    font-size: 12px;
+}
+
+.people-in-story {
+    margin-top: 555px;
+}
+.people {
+    font-size: 12px;
+    margin-bottom: 40px;
+    padding-right: 10px;
+}
+.people img{
+    width: 88px;
+    height: 88px;
+}
+.people h6{
+    font-weight: bold;
+    color: #FE5000;
+}
+ .post-excerpt h1{
+    font-size: 91px;
+    font-weight: 300;
+    line-height: 96px;
+}
+.content p{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.content p strong{
+    font-weight: bold;
+}
+
+.content img {
+    width: 170%;
+    position: relative;
+    right: 70%;
+    height: 479px;
+}
+
+.content .img-description{
+    position: relative;
+    color: #FE5000;
+    font-size: 71px;
+    line-height: 89px;
+    bottom: 145px;
+}
