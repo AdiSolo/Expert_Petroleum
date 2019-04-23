@@ -61,6 +61,7 @@ nav{
   position: relative;
     flex-grow: 4;
     padding-left: 152px;
+    margin-bottom: 20px;
     font-size: 27px;
     font-weight: 800;
     line-height: 22px;
