@@ -24,7 +24,7 @@
   padding-left: 0;
 }
 
-body, ul, li, article, p, h1, h2, h3, h4, h5{
+body, ul, li, article, p, h1, h2, h3, h4, h5, a{
     margin: 0;
     padding: 0;
     font-family: 'Adam', sans-serif !important;
@@ -230,7 +230,7 @@ nav{
     font-size: 12px;
 }
 
-.cover h1, .large-post h1 {
+.cover h1, .large-post h1 a {
     position: relative;
     width: 400px;
     color:  #FE5000;
@@ -390,6 +390,9 @@ nav{
  .date {
      color: #FE5000;
      font-size: 12px;
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
      margin-top: auto;
  }
  .more-stories {
@@ -592,6 +595,16 @@ nav{
 .headline h1,  .title h1{
     position: relative;
     top: -45px;
+    font-size: 85px;
+    font-weight: 300;
+    line-height: 96px;
+    letter-spacing: -4px;
+}
+
+.headline h1,  .title h1{
+    position: relative;
+    top: 0;
+    margin-bottom: 88px;
     font-size: 85px;
     font-weight: 300;
     line-height: 96px;
