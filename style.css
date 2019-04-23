@@ -137,6 +137,13 @@ nav{
     margin-right: 1.5rem;
 }
 
+.site-menu  .parrent-li > li img{
+    width: 208px;
+    height: 121px;;
+
+    margin-bottom: 53px;
+}
+
 .site-menu  .parrent-li > li a{
     color: #FE5000;
 }
